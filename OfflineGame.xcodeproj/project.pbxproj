@@ -13,6 +13,15 @@
 		1F0FB5FD1E21AF60004EC2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FB5FB1E21AF60004EC2D1 /* Main.storyboard */; };
 		1F0FB5FF1E21AF60004EC2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FB5FE1E21AF60004EC2D1 /* Assets.xcassets */; };
 		1F0FB6021E21AF60004EC2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FB6001E21AF60004EC2D1 /* LaunchScreen.storyboard */; };
+		1F0FB60E1E21B224004EC2D1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB60D1E21B224004EC2D1 /* Card.m */; };
+		1F0FB6191E21B2F2004EC2D1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6101E21B2F2004EC2D1 /* Deck.m */; };
+		1F0FB61A1E21B2F2004EC2D1 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6121E21B2F2004EC2D1 /* Hand.m */; };
+		1F0FB61B1E21B2F2004EC2D1 /* PokerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6141E21B2F2004EC2D1 /* PokerHand.m */; };
+		1F0FB61C1E21B2F2004EC2D1 /* TexasHoldemDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6161E21B2F2004EC2D1 /* TexasHoldemDealer.m */; };
+		1F0FB61D1E21B2F2004EC2D1 /* TexasHoldemPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6181E21B2F2004EC2D1 /* TexasHoldemPlayer.m */; };
+		1F0FB6211E21B405004EC2D1 /* Chip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6201E21B405004EC2D1 /* Chip.m */; };
+		1F0FB6241E21B6B5004EC2D1 /* BetPot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6231E21B6B5004EC2D1 /* BetPot.m */; };
+		1F0FB6271E21C9EC004EC2D1 /* TheGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6261E21C9EC004EC2D1 /* TheGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		1F0FB5FE1E21AF60004EC2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0FB6011E21AF60004EC2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0FB6031E21AF60004EC2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0FB60C1E21B224004EC2D1 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		1F0FB60D1E21B224004EC2D1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		1F0FB60F1E21B2F2004EC2D1 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		1F0FB6101E21B2F2004EC2D1 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		1F0FB6111E21B2F2004EC2D1 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hand.h; path = Model/Hand.h; sourceTree = "<group>"; };
+		1F0FB6121E21B2F2004EC2D1 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hand.m; path = Model/Hand.m; sourceTree = "<group>"; };
+		1F0FB6131E21B2F2004EC2D1 /* PokerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PokerHand.h; path = Model/PokerHand.h; sourceTree = "<group>"; };
+		1F0FB6141E21B2F2004EC2D1 /* PokerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PokerHand.m; path = Model/PokerHand.m; sourceTree = "<group>"; };
+		1F0FB6151E21B2F2004EC2D1 /* TexasHoldemDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexasHoldemDealer.h; path = Model/TexasHoldemDealer.h; sourceTree = "<group>"; };
+		1F0FB6161E21B2F2004EC2D1 /* TexasHoldemDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TexasHoldemDealer.m; path = Model/TexasHoldemDealer.m; sourceTree = "<group>"; };
+		1F0FB6171E21B2F2004EC2D1 /* TexasHoldemPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TexasHoldemPlayer.h; path = Model/TexasHoldemPlayer.h; sourceTree = "<group>"; };
+		1F0FB6181E21B2F2004EC2D1 /* TexasHoldemPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TexasHoldemPlayer.m; path = Model/TexasHoldemPlayer.m; sourceTree = "<group>"; };
+		1F0FB61F1E21B405004EC2D1 /* Chip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chip.h; path = Model/Chip.h; sourceTree = "<group>"; };
+		1F0FB6201E21B405004EC2D1 /* Chip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chip.m; path = Model/Chip.m; sourceTree = "<group>"; };
+		1F0FB6221E21B6B5004EC2D1 /* BetPot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BetPot.h; path = Model/BetPot.h; sourceTree = "<group>"; };
+		1F0FB6231E21B6B5004EC2D1 /* BetPot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BetPot.m; path = Model/BetPot.m; sourceTree = "<group>"; };
+		1F0FB6251E21C9EC004EC2D1 /* TheGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGame.h; sourceTree = "<group>"; };
+		1F0FB6261E21C9EC004EC2D1 /* TheGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,9 @@
 		1F0FB5F11E21AF60004EC2D1 /* OfflineGame */ = {
 			isa = PBXGroup;
 			children = (
+				1F0FB6251E21C9EC004EC2D1 /* TheGame.h */,
+				1F0FB6261E21C9EC004EC2D1 /* TheGame.m */,
+				1F0FB6091E21B04A004EC2D1 /* Model */,
 				1F0FB5F51E21AF60004EC2D1 /* AppDelegate.h */,
 				1F0FB5F61E21AF60004EC2D1 /* AppDelegate.m */,
 				1F0FB5F81E21AF60004EC2D1 /* ViewController.h */,
@@ -77,6 +107,37 @@
 				1F0FB5F31E21AF60004EC2D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0FB6091E21B04A004EC2D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F0FB61E1E21B2F8004EC2D1 /* PokerModel */,
+				1F0FB60F1E21B2F2004EC2D1 /* Deck.h */,
+				1F0FB6101E21B2F2004EC2D1 /* Deck.m */,
+				1F0FB6111E21B2F2004EC2D1 /* Hand.h */,
+				1F0FB6121E21B2F2004EC2D1 /* Hand.m */,
+				1F0FB60C1E21B224004EC2D1 /* Card.h */,
+				1F0FB60D1E21B224004EC2D1 /* Card.m */,
+				1F0FB61F1E21B405004EC2D1 /* Chip.h */,
+				1F0FB6201E21B405004EC2D1 /* Chip.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F0FB61E1E21B2F8004EC2D1 /* PokerModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F0FB6131E21B2F2004EC2D1 /* PokerHand.h */,
+				1F0FB6141E21B2F2004EC2D1 /* PokerHand.m */,
+				1F0FB6151E21B2F2004EC2D1 /* TexasHoldemDealer.h */,
+				1F0FB6161E21B2F2004EC2D1 /* TexasHoldemDealer.m */,
+				1F0FB6171E21B2F2004EC2D1 /* TexasHoldemPlayer.h */,
+				1F0FB6181E21B2F2004EC2D1 /* TexasHoldemPlayer.m */,
+				1F0FB6221E21B6B5004EC2D1 /* BetPot.h */,
+				1F0FB6231E21B6B5004EC2D1 /* BetPot.m */,
+			);
+			name = PokerModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0FB61A1E21B2F2004EC2D1 /* Hand.m in Sources */,
+				1F0FB61C1E21B2F2004EC2D1 /* TexasHoldemDealer.m in Sources */,
+				1F0FB6191E21B2F2004EC2D1 /* Deck.m in Sources */,
+				1F0FB6271E21C9EC004EC2D1 /* TheGame.m in Sources */,
 				1F0FB5FA1E21AF60004EC2D1 /* ViewController.m in Sources */,
+				1F0FB61B1E21B2F2004EC2D1 /* PokerHand.m in Sources */,
+				1F0FB6211E21B405004EC2D1 /* Chip.m in Sources */,
+				1F0FB61D1E21B2F2004EC2D1 /* TexasHoldemPlayer.m in Sources */,
 				1F0FB5F71E21AF60004EC2D1 /* AppDelegate.m in Sources */,
+				1F0FB6241E21B6B5004EC2D1 /* BetPot.m in Sources */,
 				1F0FB5F41E21AF60004EC2D1 /* main.m in Sources */,
+				1F0FB60E1E21B224004EC2D1 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OfflineGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.open.OfflineGame;
@@ -277,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OfflineGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.open.OfflineGame;
