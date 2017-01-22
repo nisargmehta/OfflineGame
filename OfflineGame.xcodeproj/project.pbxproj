@@ -22,6 +22,12 @@
 		1F0FB6211E21B405004EC2D1 /* Chip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6201E21B405004EC2D1 /* Chip.m */; };
 		1F0FB6241E21B6B5004EC2D1 /* BetPot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6231E21B6B5004EC2D1 /* BetPot.m */; };
 		1F0FB6271E21C9EC004EC2D1 /* TheGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FB6261E21C9EC004EC2D1 /* TheGame.m */; };
+		1F6219751E354291009EA2DF /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6219741E354291009EA2DF /* CardView.m */; };
+		1F6219781E3542C1009EA2DF /* ChipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6219771E3542C1009EA2DF /* ChipView.m */; };
+		1F62197A1E3542D7009EA2DF /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6219791E3542D7009EA2DF /* CardView.xib */; };
+		1F62197E1E3543AB009EA2DF /* RoundedViewWithStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62197D1E3543AB009EA2DF /* RoundedViewWithStroke.m */; };
+		1F6219811E354418009EA2DF /* RoundedButtonWithStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6219801E354418009EA2DF /* RoundedButtonWithStroke.m */; };
+		1F6219831E3544C0009EA2DF /* ChipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6219821E3544C0009EA2DF /* ChipView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +59,16 @@
 		1F0FB6231E21B6B5004EC2D1 /* BetPot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BetPot.m; path = Model/BetPot.m; sourceTree = "<group>"; };
 		1F0FB6251E21C9EC004EC2D1 /* TheGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGame.h; sourceTree = "<group>"; };
 		1F0FB6261E21C9EC004EC2D1 /* TheGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheGame.m; sourceTree = "<group>"; };
+		1F6219731E354291009EA2DF /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = Interface/CardView.h; sourceTree = "<group>"; };
+		1F6219741E354291009EA2DF /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = Interface/CardView.m; sourceTree = "<group>"; };
+		1F6219761E3542C1009EA2DF /* ChipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChipView.h; path = Interface/ChipView.h; sourceTree = "<group>"; };
+		1F6219771E3542C1009EA2DF /* ChipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChipView.m; path = Interface/ChipView.m; sourceTree = "<group>"; };
+		1F6219791E3542D7009EA2DF /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardView.xib; path = Interface/CardView.xib; sourceTree = "<group>"; };
+		1F62197C1E3543AB009EA2DF /* RoundedViewWithStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedViewWithStroke.h; sourceTree = "<group>"; };
+		1F62197D1E3543AB009EA2DF /* RoundedViewWithStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedViewWithStroke.m; sourceTree = "<group>"; };
+		1F62197F1E354418009EA2DF /* RoundedButtonWithStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedButtonWithStroke.h; sourceTree = "<group>"; };
+		1F6219801E354418009EA2DF /* RoundedButtonWithStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedButtonWithStroke.m; sourceTree = "<group>"; };
+		1F6219821E3544C0009EA2DF /* ChipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChipView.xib; path = Interface/ChipView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +108,7 @@
 				1F0FB5F61E21AF60004EC2D1 /* AppDelegate.m */,
 				1F0FB5F81E21AF60004EC2D1 /* ViewController.h */,
 				1F0FB5F91E21AF60004EC2D1 /* ViewController.m */,
+				1F6219721E3541FF009EA2DF /* Interface */,
 				1F0FB5FB1E21AF60004EC2D1 /* Main.storyboard */,
 				1F0FB5FE1E21AF60004EC2D1 /* Assets.xcassets */,
 				1F0FB6001E21AF60004EC2D1 /* LaunchScreen.storyboard */,
@@ -138,6 +155,31 @@
 				1F0FB6231E21B6B5004EC2D1 /* BetPot.m */,
 			);
 			name = PokerModel;
+			sourceTree = "<group>";
+		};
+		1F6219721E3541FF009EA2DF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1F62197B1E35437A009EA2DF /* Helpers */,
+				1F6219731E354291009EA2DF /* CardView.h */,
+				1F6219741E354291009EA2DF /* CardView.m */,
+				1F6219791E3542D7009EA2DF /* CardView.xib */,
+				1F6219761E3542C1009EA2DF /* ChipView.h */,
+				1F6219771E3542C1009EA2DF /* ChipView.m */,
+				1F6219821E3544C0009EA2DF /* ChipView.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		1F62197B1E35437A009EA2DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F62197F1E354418009EA2DF /* RoundedButtonWithStroke.h */,
+				1F6219801E354418009EA2DF /* RoundedButtonWithStroke.m */,
+				1F62197C1E3543AB009EA2DF /* RoundedViewWithStroke.h */,
+				1F62197D1E3543AB009EA2DF /* RoundedViewWithStroke.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0FB6021E21AF60004EC2D1 /* LaunchScreen.storyboard in Resources */,
+				1F6219831E3544C0009EA2DF /* ChipView.xib in Resources */,
 				1F0FB5FF1E21AF60004EC2D1 /* Assets.xcassets in Resources */,
+				1F62197A1E3542D7009EA2DF /* CardView.xib in Resources */,
 				1F0FB5FD1E21AF60004EC2D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,15 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F62197E1E3543AB009EA2DF /* RoundedViewWithStroke.m in Sources */,
 				1F0FB61A1E21B2F2004EC2D1 /* Hand.m in Sources */,
 				1F0FB61C1E21B2F2004EC2D1 /* TexasHoldemDealer.m in Sources */,
 				1F0FB6191E21B2F2004EC2D1 /* Deck.m in Sources */,
 				1F0FB6271E21C9EC004EC2D1 /* TheGame.m in Sources */,
+				1F6219811E354418009EA2DF /* RoundedButtonWithStroke.m in Sources */,
 				1F0FB5FA1E21AF60004EC2D1 /* ViewController.m in Sources */,
+				1F6219751E354291009EA2DF /* CardView.m in Sources */,
 				1F0FB61B1E21B2F2004EC2D1 /* PokerHand.m in Sources */,
 				1F0FB6211E21B405004EC2D1 /* Chip.m in Sources */,
 				1F0FB61D1E21B2F2004EC2D1 /* TexasHoldemPlayer.m in Sources */,
 				1F0FB5F71E21AF60004EC2D1 /* AppDelegate.m in Sources */,
+				1F6219781E3542C1009EA2DF /* ChipView.m in Sources */,
 				1F0FB6241E21B6B5004EC2D1 /* BetPot.m in Sources */,
 				1F0FB5F41E21AF60004EC2D1 /* main.m in Sources */,
 				1F0FB60E1E21B224004EC2D1 /* Card.m in Sources */,
@@ -375,6 +423,7 @@
 				1F0FB6081E21AF60004EC2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
